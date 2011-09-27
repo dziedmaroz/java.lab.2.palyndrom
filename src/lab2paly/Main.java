@@ -25,7 +25,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        System.out.println(findPalyndr("dxdxdXXYYXXksdf"));
+       System.out.println(findPalyndr(readFromFile("input.in")));
     }
 
     public static String readFromFile(String path)
